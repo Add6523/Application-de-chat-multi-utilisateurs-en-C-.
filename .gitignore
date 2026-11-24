@@ -1,0 +1,15 @@
+# Exécutables produits par les Makefile
+serveur
+client
+# Fichiers objets
+*.o
+# Fichiers reçus lors des transferts (V5)
+recus/
+# Archives du livrable
+*.zip
+livrable/tmp/
+# Fichiers d'éditeur / système
+.vscode/
+*.swp
+*~
+.claude/settings.local.json
