@@ -10,7 +10,7 @@
 
 - **Cours** : ECU Programmation système, Université Thomas Sankara (UTS), Licence 3 Informatique.
 - **Enseignant** : Dr Moustapha BIKIENGA (bmoustaph@yahoo.fr).
-- **Travail en binôme** : Sawadogo Adama + `[NOM DU BINÔME — à compléter]`.
+- **Travail individuel** : Sawadogo Adama, seul (pas de binôme). GitHub : [Add6523](https://github.com/Add6523).
 - **Objectif** : réaliser en **langage C**, sous **Linux (Ubuntu)**, une application de **chat client/serveur** en TCP permettant :
   - d'échanger des messages entre 2 utilisateurs (privé), entre plusieurs (salon) ou avec tous les connectés (broadcast) ;
   - de s'envoyer des fichiers.
@@ -343,7 +343,7 @@ Le dépôt sert aussi à valoriser le profil GitHub d'Adama. Le `README.md` raci
 - Tableau des commandes.
 - Installation / compilation / lancement.
 - Tableau « Évolution du projet » : V1 → V5 avec un lien vers chaque dossier.
-- Section « Auteurs » : Sawadogo Adama + binôme (avec liens GitHub si fournis), contexte (projet de Programmation système, L3 Informatique, UTS).
+- Section « Auteurs » : Sawadogo Adama (GitHub : Add6523), travail individuel, contexte (projet de Programmation système, L3 Informatique, UTS).
 - Le README de chaque dossier de version reste court : ce qu'apporte la version et comment la tester.
 
 ---
@@ -353,7 +353,7 @@ Le dépôt sert aussi à valoriser le profil GitHub d'Adama. Le `README.md` raci
 À rédiger **à la fin du projet** (après la V5), en Markdown ; Adama les retouchera ensuite.
 
 ### `docs/rapport.md`
-1. Page de garde : titre, cours, enseignant, année universitaire, **membres du binôme avec leurs adresses e-mail** (laisser des champs `[À COMPLÉTER]`).
+1. Page de garde : titre, cours, enseignant, année universitaire, **auteur (Sawadogo Adama, travail individuel) avec son adresse e-mail** (laisser des champs `[À COMPLÉTER]`).
 2. Introduction : objectif du projet.
 3. Choix techniques et justification (TCP, threads + mutex, protocole à en-tête, relais des fichiers par le serveur).
 4. Architecture : schéma, structures de données, rôle de chaque fichier source.
@@ -373,12 +373,12 @@ Proposer une conversion en `.docx` et `.pdf` avec `pandoc` (l'installer avec `su
 
 ## 11. Livrable final
 
-Le sujet exige une archive nommée `Travail_groupe_<NOM1>_<NOM2>.zip` contenant : le rapport, **les codes sources commentés, les exécutables**, le manuel d'utilisation, et tout fichier relatif au projet.
+Le sujet exige une archive nommée `Travail_groupe_<NOM1>_<NOM2>.zip` (travail individuel : `Travail_groupe_SAWADOGO_Adama.zip`) contenant : le rapport, **les codes sources commentés, les exécutables**, le manuel d'utilisation, et tout fichier relatif au projet.
 
 `livrable/creer_archive.sh` doit :
 1. compiler chaque version (`make` dans `v1/` … `v5/`) ;
 2. copier sources + exécutables de chaque version, `docs/` (versions `.pdf`/`.docx` si disponibles) et `README.md` dans un dossier temporaire ;
-3. produire `Travail_groupe_<NOM1>_<NOM2>.zip` (noms passés en arguments du script) ;
+3. produire `Travail_groupe_<NOM>_<PRENOM>.zip` (par défaut `Travail_groupe_SAWADOGO_Adama.zip`) ;
 4. ne pas inclure `.git`, les fichiers `.o` ni les dossiers `recus/`.
 
 ---

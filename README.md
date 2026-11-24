@@ -23,4 +23,4 @@ cd v1 && make
 ```
 
 ## Auteurs
-Sawadogo Adama et [binôme à compléter]. Projet de Programmation système, L3 Informatique, Université Thomas Sankara (UTS).
+**Sawadogo Adama** ([@Add6523](https://github.com/Add6523)). Projet individuel de Programmation système, L3 Informatique, Université Thomas Sankara (UTS).
